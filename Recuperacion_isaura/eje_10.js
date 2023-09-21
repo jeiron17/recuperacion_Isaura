@@ -1,9 +1,10 @@
 let a = Number(prompt("digitar un numero"))
 let b = 1;
 let contador = 0;
-for(let i=0;i<=a;i++){
-   var primo = a%i==0
-   contador=contador+1   
+let i=0;i<=a;i++){
+   if(a%i==0){
+   contador++
+   }
 }
 
 if(contador==2){
